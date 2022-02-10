@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Teste from './components/Teste/index'
-import './index.css';
+import Input from './components/Input'
+import Sub from './components/Sub'
+import './styles/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Teste/>
+    <Sub/>
+    <Input/>
   </React.StrictMode>,
   document.getElementById('root')
 );
